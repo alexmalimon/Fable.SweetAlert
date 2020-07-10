@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.SweetAlert", "src\Fable.SweetAlert.fsproj", "{F4EF1625-2BB7-4F80-8B91-F10197863941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4EF1625-2BB7-4F80-8B91-F10197863941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EF1625-2BB7-4F80-8B91-F10197863941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EF1625-2BB7-4F80-8B91-F10197863941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EF1625-2BB7-4F80-8B91-F10197863941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

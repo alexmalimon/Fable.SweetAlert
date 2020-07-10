@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Title>Fable SweetAlert</Title>
+        <Version>1.0.0</Version>
+        <Description>SweetAlert integration with Fable</Description>
+        <RepositoryUrl>https://github.com/alexmalimon/Fable.SweetAlert</RepositoryUrl>
+        <PackageTags>fsharp;fable;elmish;sweetalert;alerts</PackageTags>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+    <PropertyGroup>
+        <NpmDependencies>
+            <NpmPackage Name="sweetalert" Version="&gt;= 2.1.2" ResolutionStrategy="Max" />
+        </NpmDependencies>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Types.fs" />
+        <Compile Include="SweetAlert.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="*.fsproj; *.fs;" PackagePath="fable\" />
+    </ItemGroup>
+    <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
