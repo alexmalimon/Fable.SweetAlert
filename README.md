@@ -12,3 +12,15 @@ paket add Fable.SweetAlert --project /path/to/Project.fsproj
 npm install sweetalert 2.1.2 --save
 yarn add sweetalert@2.1.2
 ```
+### Code Sample
+This is an example of simple `Swal` alert.
+
+```fs
+let options =
+    { SwalOptions.Default with
+        Title = Some "Good job!"
+        Text = Some "You clicked the button!"
+        Icon = Some SwalIcon.Success }
+
+Swal.swal options
+```
